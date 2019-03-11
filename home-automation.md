@@ -1,9 +1,17 @@
 ---
 layout: article
 title: Home Automation
-
+mode: immersive
+header:
+  theme: forest
+article_header:
+  type: overlay
+  theme: forest
+  background_color: '#203028'
+  background_image:
+    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
+    src: /docs/assets/images/front-page/home-automation.jpg
 ---
-
 
 
 Over the past year, I delved into one of my emerging interests—home automation—to see how it could improve daily life with the current technology.  The devices I previously owned—a voice assistant speaker, a Wi-Fi plug, some inexpensive cameras—were completely underwhelming to use, but I could see the potential. Maybe with a sizable investment, I could build a real smart home.
