@@ -1,18 +1,24 @@
 ---
 layout: article
 title: Home Automation
+excerpt: A view into what's reasonly possible with home automation in 2019.
+key: home-automation
+category: home-automation
+tag: ['home-automation']
 mode: immersive
 header:
   theme: forest
 article_header:
   type: overlay
-  theme: forest
+  theme: dark
   background_color: '#203028'
   background_image:
     gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
-    src: /docs/assets/images/front-page/home-automation.jpg
+    src: /assets/images/front-page/home-automation.jpg
 ---
 
+
+<!--more-->
 
 Over the past year, I delved into one of my emerging interests—home automation—to see how it could improve daily life with the current technology.  The devices I previously owned—a voice assistant speaker, a Wi-Fi plug, some inexpensive cameras—were completely underwhelming to use, but I could see the potential. Maybe with a sizable investment, I could build a real smart home.
 
@@ -28,7 +34,7 @@ Not everything is perfect, but the solution I have is good enough to recommend f
 
 ## Who is the audience here?
 
-![img](https://d2mxuefqeaa7sj.cloudfront.net/s_6F2D06D13ED5B646A7B3ABF92554F4B018DC3C58310A9D7A5EC1772E423FF837_1544503462295_diy_skill.JPG)
+![img](https://d2mxuefqeaa7sj.cloudfront.net/s_6F2D06D13ED5B646A7B3ABF92554F4B018DC3C58310A9D7A5EC1772E423FF837_1544503462295_diy_skill.JPG){:height="400px"}
 
 
 
@@ -66,6 +72,26 @@ It wasn’t easy integrating products made by so many different vendors, but the
 
 If you worry about it, you will never start building your smart home, so don’t worry about it!
 
-{{ site.home_automation | where:"category","infrastructure" }}
 
+
+Infrastructure | | |
+------------ | ------------- | ------------- | ------------- 
+ ![network](assets\images\grid\network.jpg){:.border.rounded} | ![home automation hub](assets\images\grid\home-automation-hub.jpg){:.border.rounded}  | ![smart home standard](assets\images\grid\smart-home-standard.jpg){:.border.rounded} | ![voice assistant](assets\images\grid\voice-assistant.jpg){:.border.rounded}
+
+
+Media | | |
+------------ | ------------- | ------------- | 
+![multi-room audio](assets\images\grid\multiroom.jpg){:.border.rounded} | Home Theater | Media Services
+
+Smart Home Gadgets | | | |
+------------ | ------------- | ------------- | ------------- |
+![Smart Display](assets\images\grid\smart-display.jpg){:.border.rounded} | ![Tablet](assets\images\grid\tablet.jpg){:.border.rounded} | ![Garage Opener](assets\images\grid\garage-door.jpg){:.border.rounded} |![Thermostat](assets\images\grid\x.jpg){:.border.rounded}
+
+Home Security | | | |
+------------ | ------------- | ------------- | ------------- |
+![Camera](assets\images\grid\x.jpg){:.border.rounded} |![Security System](assets\images\grid\x.jpg){:.border.rounded} | Sensor | ![Smart Lock](assets\images\grid\smart-lock.jpg){:.border.rounded}
+
+Lighting | | | | |
+------------ | ------------- | ------------- | ------------- | ------------- |
+Dawn-to-Dusk Bulb | Occupancy Switch | ![Smart Bulb](assets\images\grid\smart-bulb.jpg){:.border.rounded} | Smart Switch | Light Strip
 

@@ -186,7 +186,15 @@ permalink   : date
 ## => Collections
 ##############################
 collections:
-  home_automation:
+  infrastructure:
+    output: true
+  media:
+    output: true
+  lighting:
+    output: true
+  gadgets:
+    output: true
+  home_security:
     output: true
 
   

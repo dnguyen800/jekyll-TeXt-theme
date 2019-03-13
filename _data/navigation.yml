@@ -7,9 +7,10 @@ header:
 
   - title:      Home Automation
     url:        /home-automation.html
-   
-  - title:      Landing
-    url:        /landing.html
+
+    
+  - title:      Grid
+    url:        /home-automation-grid.html
     
 
 
