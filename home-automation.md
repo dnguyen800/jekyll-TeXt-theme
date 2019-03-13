@@ -34,7 +34,7 @@ Not everything is perfect, but the solution I have is good enough to recommend f
 
 ## Who is the audience here?
 
-![img](https://d2mxuefqeaa7sj.cloudfront.net/s_6F2D06D13ED5B646A7B3ABF92554F4B018DC3C58310A9D7A5EC1772E423FF837_1544503462295_diy_skill.JPG){:height="400px"}
+![img](https://d2mxuefqeaa7sj.cloudfront.net/s_6F2D06D13ED5B646A7B3ABF92554F4B018DC3C58310A9D7A5EC1772E423FF837_1544503462295_diy_skill.JPG){: width=20% height=20% style="float:left; padding:8px"}
 
 
 
@@ -95,3 +95,12 @@ Lighting | | | | |
 ------------ | ------------- | ------------- | ------------- | ------------- |
 Dawn-to-Dusk Bulb | Occupancy Switch | ![Smart Bulb](assets\images\grid\smart-bulb.jpg){:.border.rounded} | Smart Switch | Light Strip
 
+{::options parse_block_html="true" /}
+<div class="grid-container">
+  <div class="grid grid--p-3">
+    <div class="cell cell--6"><div>6 cells</div></div>
+    <div class="cell cell--6"><div>6 cells</div></div>
+    <div class="cell cell--6"><div>6 cells</div></div>
+    <div class="cell cell--6"><div>6 cells</div></div>
+  </div>
+</div>
