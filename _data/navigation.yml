@@ -12,5 +12,19 @@ header:
   - title:      Grid
     url:        /home-automation-grid.html
     
+    
+about-me:
+  - title: About Me
+    children: 
+      
+      - title: Github
+        url: https://github.com/dnguyen800
+        icon: "fab fa-fw fa-github"
+      - title: Youtube
+        url: "https://www.youtube.com/channel/UC1O-WwXbjHTKVT_j--r7MRQ"
+        icon: "fab fa-youtube"
+      - title: LinkedIn
+        url: https://www.linkedin.com/in/dwinnn/
+    
 
 
