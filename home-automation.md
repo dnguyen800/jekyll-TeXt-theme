@@ -22,8 +22,7 @@ article_header:
 
 
 
-Youtube Test
-{% include video id="XsxDH4HcOWA" provider="youtube" %}
+
 
 
 
@@ -36,9 +35,7 @@ After fitting three homes with an array of sensors, tablets, speakers, lights an
 
 
 Not everything is perfect, but the solution I have is good enough to recommend for beginners. What you will find here is a collection of unbiased advice and recommendations on each aspect of the smart home, and an honest opinion on what smart homes are capable of with today’s technology.
-## Kramdown-Who is the audience here? 
-![image-left](/assets/images/other/diy-skill.jpg){: .align-left}
-Not everyone aspires to be an electrician, and neither do I. My product recommendations are for do-it-yourself hobbyists with no professional experience in electrical work, but want to learn. To give an example of skill level needed, I can mount a TV on the wall but I would not run an electrical wire through the wall without an electrician’s help. 
+
 
 ## HTML-Who is the audience here?
 <div class="item">
@@ -105,29 +102,6 @@ Not everyone aspires to be an electrician, and neither do I. My product recommen
 It wasn’t easy integrating products made by so many different vendors, but the process is much more doable today than it was  years ago. The problem with technology is that it advances so quickly, and it is inevitable that some products are no longer be supported. 
 
 If you worry about it, you will never start building your smart home, so don’t worry about it!
-
-
-
-Infrastructure | | |
------------- | ------------- | ------------- | ------------- 
- ![network](assets\images\grid\network.jpg){:.border.rounded} | ![home automation hub](assets\images\grid\home-automation-hub.jpg){:.border.rounded}  | ![smart home standard](assets\images\grid\smart-home-standard.jpg){:.border.rounded} | ![voice assistant](assets\images\grid\voice-assistant.jpg){:.border.rounded}
-
-
-Media | | |
------------- | ------------- | ------------- | 
-![multi-room audio](assets\images\grid\multiroom.jpg){:.border.rounded} | Home Theater | Media Services
-
-Smart Home Gadgets | | | |
------------- | ------------- | ------------- | ------------- |
-![Smart Display](assets\images\grid\smart-display.jpg){:.border.rounded} | ![Tablet](assets\images\grid\tablet.jpg){:.border.rounded} | ![Garage Opener](assets\images\grid\garage-door.jpg){:.border.rounded} |![Thermostat](assets\images\grid\x.jpg){:.border.rounded}
-
-Home Security | | | |
------------- | ------------- | ------------- | ------------- |
-![Camera](assets\images\grid\x.jpg){:.border.rounded} |![Security System](assets\images\grid\x.jpg){:.border.rounded} | Sensor | ![Smart Lock](assets\images\grid\smart-lock.jpg){:.border.rounded}
-
-Lighting | | | | |
------------- | ------------- | ------------- | ------------- | ------------- |
-Dawn-to-Dusk Bulb | Occupancy Switch | ![Smart Bulb](assets\images\grid\smart-bulb.jpg){:.border.rounded} | Smart Switch | Light Strip
 
 
 <div class="grid-container">
@@ -209,7 +183,7 @@ Dawn-to-Dusk Bulb | Occupancy Switch | ![Smart Bulb](assets\images\grid\smart-bu
         <img class="image" src="assets/images/grid/smart-lock.jpg"/>
       </div>
     </div></div></div>
-  </div>
+ 
 
     <div class="cell cell--12"><div><h2>Lighting</h2></div></div>
         <div class="cell cell--3"><div><div class="card">

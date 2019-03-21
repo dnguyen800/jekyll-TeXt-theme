@@ -1,25 +1,24 @@
-{%- if page.sidebar.nav -%}
-  <div class="sidebar-toc">
-    {%- assign _sidebar_nav = site.data.navigation[page.sidebar.nav] -%}
-    {%- if _sidebar_nav -%}
-    <ul class="toc toc--navigator">
-      {%- for _item in _sidebar_nav -%}
-        <li class="toc-h1">{{ _item.title }}</li>
-        {%- if _item.children -%}
-          {%- for _child in _item.children -%}
-            {%- include snippets/get-nav-url.html path=_child.url -%}
-            {%- assign _nav_url = __return -%}
-            {%- include snippets/get-nav-url.html path=page.url -%}
-            {%- assign _page_url = __return -%}
-            {%- if _nav_url == _page_url -%}
-              <li class="toc-h2 active"><a href="{{ _nav_url }}">{{ _child.title }}</a></li>
-            {%- else -%}
-              <li class="toc-h2"><a href="{{ _nav_url }}">{{ _child.title }}</a></li>
-            {%- endif -%}
-          {%- endfor -%}
-        {%- endif -%}
-      {%- endfor -%}
-      </ul>
-    {%- endif -%}
+{% if page.author_profile or layout.author_profile or page.sidebar %}
+  <div class="sidebar sticky">
+  {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
+  {% if page.sidebar %}
+    {% for s in page.sidebar %}
+      {% if s.image %}
+        <img src=
+        {% if s.image contains "://" %}
+          "{{ s.image }}"
+        {% else %}
+          "{{ s.image | relative_url }}"
+        {% endif %}
+        alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
+      {% endif %}
+      {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
+      {% if s.text %}{{ s.text | markdownify }}{% endif %}
+      {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
+    {% endfor %}
+    {% if page.sidebar.nav %}
+      {% include nav_list nav=page.sidebar.nav %}
+    {% endif %}
+  {% endif %}
   </div>
-{%- endif -%}
+{% endif %}

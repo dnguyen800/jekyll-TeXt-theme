@@ -23,13 +23,13 @@ I’ve personally tested the following:
 - T-Mobile/ASUS TM-AC1900 router
 
 ### Overview
-When I added a few cameras, tablets, smart speakers, and media streaming devices to the house, my network router nearly died from the overload. Websites took longer to load, devices stopped responding, and eventually the wireless network went offline. I knew I would have more issues down the line until I changed the router, so I started looking into the latest tech—Wi-Fi mesh systems. 
+When I added a few cameras, tablets, smart speakers, and media streaming devices to the house, my network router nearly died from the overload. Websites took longer to load, devices stopped responding, and eventually the wireless network went offline. I knew I would have more issues in the future unless I replaced the router, so I started looking into the latest network tech—Wi-Fi mesh systems. 
 
-Sidenote: For advanced networking users who want features like VPN and VLAN, I would suggest Ubiquiti’s lineup of routers, wireless APs and switches. Before purchasing, you need to decide whether you need managed network switches for VLANs and Power-over-Ethernet (PoE) to connect wired cameras and access points (AP) all around the house. If you want both, then it will cost you — an 8-port managed network switch with PoE sells for $200. 
+Sidenote: For advanced networking users who want features like VPN and VLAN and have over 40 connected devices, I would suggest Ubiquiti’s lineup of routers, wireless APs and switches. Before purchasing, you need to decide whether you need managed network switches for VLANs and Power-over-Ethernet (PoE) to connect wired cameras and access points (AP) all around the house. If you want both, then it will cost you — an 8-port managed network switch with PoE sells for $200. 
 
 Tom’s Guide offers a good primer on Wi-Fi mesh technology, but essentially Wi-Fi mesh offers improved wireless range and speed, easy network management, streamlined connections, and tighter security. Having unsuccessfully tried alternatives like wireless repeaters, powerline and MoCA adapters, I highly recommend Wi-Fi mesh systems to anyone who wants to spend less time rebooting and troubleshooting routers. The high cost was initially an issue, but Google Wifi and other mid-range mesh systems can be purchased for $200 or so, making it an easier to recommend.
 
-No matter what product you choose, be sure to thoroughly test the system for issues. That means connect as many devices as you can and start watching videos on multiple devices. Turn on every feature you plan to use—like static IP addresses, VPN and guest network. Every system has problems and the same goes for my recommendation—there isn’t a router that meets everyone’s needs.  
+No matter what product you choose, be sure to thoroughly test the system for issues. That means connect as many devices as you can and start watching high definition videos on multiple devices. Turn on every feature you plan to use—like static IP addresses, VPN and guest network. Every system has problems and the same goes for my recommendation—there isn’t a router that meets everyone’s needs.  
 
 Also make sure to buy the right product, as companies are releasing a confusing amount of SKUs to take advantage of brand recognition and consumer confusion. Not all Netgear Orbis are created equal—without proper research, you could be paying a high price for a low-end product. The Wirecutter’s Wi-Fi mesh system recommendations are listed by model number and also suggests avoiding certain SKUs that are underpowered. 
 
@@ -64,11 +64,13 @@ Another unique feature of Google Wifi is that each wifi point acts as a standalo
 
 ![](https://d2mxuefqeaa7sj.cloudfront.net/s_6F2D06D13ED5B646A7B3ABF92554F4B018DC3C58310A9D7A5EC1772E423FF837_1546274366130_google_wifi_app.png)
 
+My home network consists of 25 to 30 devices and Google Wifi handles it with ease. Whether it is music streaming throughout the house, watching movies in 4K--I haven't run into any issues. I've read on forums that network issues are more noticeable once you hit the 40+ device limit--by that time, you will need to upgrade to Ubiquiti routers and APs. ~ and actively manage your network.
 
 #### The Problems
-That said, I’m disappointed that I’ve run into some issues with Google Wifi. I had to reboot and reconnect the wifi points to the network once a month. I believe the cause is the refurb Onhub Google router I’m using, which has been exhibiting other problems with it, like a dead ethernet port.
 
-To Google’s credit, every issue was easily resolved through the app—I even fixed the issue while I was away from the house. Still, I wish this system was a set-and-forget-it type solution, but I haven’t found the answer, yet.
+With all the good things I've said of Google Wifi so far, I find myself looking at other solutions that support advanced features like VLAN and VPN. The need for a separate, segregated network for IoT devices is growing, yet none of the current consumer routers offer it.
+
+I set up a TP-Link/Google Onhub router, which is compatible with Google Wifi, but ran into disconnection issues every few weeks. Replacing the TP-Link with a Google Wifi point seems to have solved the problem, though it's disappointing to have run into this issue in the first place. To Google’s credit, every issue I encountered was easily resolved through the app—I even fixed the issue while I was away from the house. Still, I wish this system was a set-and-forget-it type solution, but I haven’t found the answer in Google Wifi, yet.
 
 Not everyone prefers Google Wifi as its simplicity means less control in some cases. I’ve run into issues that could have been resolved if Google Wifi had the following features: 
 
@@ -107,7 +109,7 @@ At this price range ($250-350), you are encroaching on Netgear Orbi’s territor
 
 
 **For the budget-conscious who doesn’t mind taking a gamble, the T-Mobile TM-AC1900 router can provide great value, if only the features worked reliably.** The router is a rebranded ASUS RT-AC68U router that normally sells for $100-160, so you can see why this is a steal when it is on sale for $40. 
- 
+
 Though I had major problems using this router, my friend’s router, with stock firmware, hasn’t run into the same problems. I would normally stick with stock firmware, but the router is no longer supported by T-Mobile or ASUS since early 2018, and patches for security issues like the KRACK vulnerability are going to be few and far between.
 
 #### The Problems 
