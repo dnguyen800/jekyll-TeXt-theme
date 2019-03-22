@@ -20,17 +20,20 @@ This website is free of advertisements--I'm not here to make a living off my sit
 
 ## About Me
 
-![image-left](/assets/images/front-page/about.png){: .align-left}
+![image-left](/assets/images/front-page/about.png){: .circle.shadow.border.align-left.image--lg}
 
 ### Dan Nguyen
 
 I am a thirty-something year old with experience in compliance, risk and process audits of all types. I started my career as an SOX IT auditor at PriceWaterhouseCoopers and worked for several large tech companies within the internal audit team. I am looking to branch out in the information security space, where I currently spend my free time learning the tools of the trade.
 
-**CERTIFICATIONS:** Certified Information Systems Auditor (CISA), (ISC)2 Systems Security Certified Practitioner (SSCP), Certified Public Accountant (CPA, Inactive)
+
+
+> **CERTIFICATIONS:** Certified Information Systems Auditor (CISA), (ISC)2 Systems Security Certified Practitioner (SSCP), Certified Public Accountant (CPA, Inactive)
 
 I am an avid learner of technology. This home automation hobby has given me the opportunity to practice work skills such as Python and Javascript programming, and become more familiar with OS and server management (Linux, Docker), website design (CSS/HTML), and network security.  I've contributed Python components and Javascript-based UI cards to the Home Assistant open-source community, which you can find on my Github page.
 
-**OTHER INTERESTS: ** Traveling, cooking, 3D modeling (architecture), drawing, cinema
+
+> **OTHER INTERESTS:** Traveling, cooking, 3D modeling (architecture), drawing, cinema
 
 - San Jose, CA
 - LinkedIn

@@ -34,20 +34,29 @@ After fitting three homes with an array of sensors, tablets, speakers, lights an
 
 
 
-Not everything is perfect, but the solution I have is good enough to recommend for beginners. What you will find here is a collection of unbiased advice and recommendations on each aspect of the smart home, and an honest opinion on what smart homes are capable of with today’s technology.
+__Not everything is perfect, but the solution I have is good enough to recommend for beginners.__ What you will find here is a collection of unbiased advice and recommendations on each aspect of the smart home, and an honest opinion on what smart homes are capable of with today’s technology.
+
+## Kramdown-Who is the audience here?
+<div><img class="image image--xl rounded" src="assets/images/other/diy-skill.jpg" align="left" /></div>
+
+### A DIY Skill Level
+
+Not everyone aspires to be an electrician, and neither do I. My product recommendations are for do-it-yourself hobbyists with no professional experience in electrical work, but want to learn. To give an example of skill level needed, I can mount a TV on the wall but I would not run an electrical wire through the wall without an electrician’s help.
 
 
-## HTML-Who is the audience here?
+
+
+## HTML - Who is the audience here?
 <div class="item">
   <div class="item__image">
-    <img class="image image--lg" src="assets/images/other/diy-skill.jpg"/>
+    <img class="image image--xl rounded" src="assets/images/other/diy-skill.jpg"  />
   </div>
   <div class="item__content">
     <div class="item__header">
-      <h3>A DIY Skill Level.</h3>
+      <h3>A DIY Skill Level</h3>
     </div>
     <div class="item__description">
-      <p>Not everyone aspires to be an electrician, and neither do I. My product recommendations are for do-it-yourself hobbyists with no professional experience in electrical work, but want to learn. To give an example of skill level needed, I can mount a TV on the wall but I would not run an electrical wire through the wall without an electrician’s help.  </p>
+      <p>Not everyone aspires to be an electrician, and neither do I. My product recommendations are for do-it-yourself hobbyists with no professional experience in electrical work, but want to learn. To give an example of skill level needed, I can mount a TV on the wall but I would not run an electrical wire through the wall without an electrician’s help.</p>
     </div>
   </div>
 </div>
@@ -55,11 +64,11 @@ Not everything is perfect, but the solution I have is good enough to recommend f
 
 <div class="item">
   <div class="item__image">
-    <img class="image image--lg" src="https://d2mxuefqeaa7sj.cloudfront.net/s_6F2D06D13ED5B646A7B3ABF92554F4B018DC3C58310A9D7A5EC1772E423FF837_1544503224715_budget.JPG"/>
+    <img class="image image--xl rounded" src="https://d2mxuefqeaa7sj.cloudfront.net/s_6F2D06D13ED5B646A7B3ABF92554F4B018DC3C58310A9D7A5EC1772E423FF837_1544503224715_budget.JPG"/>
   </div>
   <div class="item__content">
     <div class="item__header">
-      <h4>A Reasonable Budget</h4>
+      <h3>A Reasonable Budget</h3>
     </div>
     <div class="item__description">
       <p>I look for the best value within a reasonable price, so premium dealers like Control4 are out of the question. I favor reliability over cheaper prices, especially if it means saving time and headaches. Starting with a budget of $1,000 is enough to cover the infrastructure purchases and a few aspects of the smart home. $3,000 should be enough to cover everything except extravagant items like the Google Home Max, Homepods, and iPads. </p>
@@ -70,11 +79,11 @@ Not everything is perfect, but the solution I have is good enough to recommend f
 
 <div class="item">
   <div class="item__image">
-    <img class="image image--lg" src="https://d2mxuefqeaa7sj.cloudfront.net/s_6F2D06D13ED5B646A7B3ABF92554F4B018DC3C58310A9D7A5EC1772E423FF837_1551228909465_homeassistant02.jpg"/>
+    <img class="image image--xl rounded" src="https://d2mxuefqeaa7sj.cloudfront.net/s_6F2D06D13ED5B646A7B3ABF92554F4B018DC3C58310A9D7A5EC1772E423FF837_1551228909465_homeassistant02.jpg"/>
   </div>
   <div class="item__content">
     <div class="item__header">
-      <h4>A simple setup, unless there is a feature I really, really want</h4>
+      <h3>A simple setup, unless there is a feature I need</h3>
     </div>
     <div class="item__description">
       <p>I value my time and sanity, so I stuck with easy-to-setup consumer products like those from Google and Nest. There are cons to using cloud-dependent products, but I haven’t found any comparable products that are easy to setup and access remotely. I also wanted a nice user interface to highlight the smart home capabilities, so I set up a [Home Assistant](https://www.home-assistant.io/) instance to serve as a dashboard. Man, what a time sink it turned out to be, but Home Assistant is arguably the coolest part of my smart home. </p>
@@ -84,11 +93,11 @@ Not everything is perfect, but the solution I have is good enough to recommend f
 <p></p>
 <div class="item">
   <div class="item__image">
-    <img class="image image--lg" src="https://d2mxuefqeaa7sj.cloudfront.net/s_6F2D06D13ED5B646A7B3ABF92554F4B018DC3C58310A9D7A5EC1772E423FF837_1544504409789_music.JPG"/>
+    <img class="image image--xl rounded" src="https://d2mxuefqeaa7sj.cloudfront.net/s_6F2D06D13ED5B646A7B3ABF92554F4B018DC3C58310A9D7A5EC1772E423FF837_1544504409789_music.JPG"/>
   </div>
   <div class="item__content">
     <div class="item__header">
-      <h4>Music at my convenience</h4>
+      <h3>Music at my convenience</h3>
     </div>
     <div class="item__description">
       <p>I wanted a way to enjoy my digitized music collection (over 200 CDs!) and stream music throughout the house — and I’m happy to report that this is easily achievable with Chromecast Built-in speakers and the multi-room audio feature. Using smart speakers meant sacrificing audio fidelity, but that was my only choice in order to stay within budget. It’s been really nostalgic to rediscover old favorite songs from the past two decades back. I love it! </p>
@@ -183,7 +192,7 @@ If you worry about it, you will never start building your smart home, so don’t
         <img class="image" src="assets/images/grid/smart-lock.jpg"/>
       </div>
     </div></div></div>
- 
+
 
     <div class="cell cell--12"><div><h2>Lighting</h2></div></div>
         <div class="cell cell--3"><div><div class="card">
