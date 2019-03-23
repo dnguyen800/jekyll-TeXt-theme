@@ -36,7 +36,7 @@ I’ve personally tested the following:
 
 When I added a few cameras, tablets, smart speakers, and media streaming devices to the house, my network router nearly died from the overload. Websites took longer to load, devices stopped responding, and eventually the wireless network went offline. I knew I would have more issues in the future unless I replaced the router, so I started looking into the latest network tech—Wi-Fi mesh systems. 
 
-Tom’s Guide offers a good [primer](#recommended-reading) on Wi-Fi mesh technology, but in a nutshell, Wi-Fi mesh systems are almost the same as routers but streamline the process of adding wireless access points while maximizing speed and range. Simple is the key philosophy here, so features like band and AP steering and a mobile app are common features meant to make managing your network easier. There is no need to have separate network names for 2.4ghz and 5ghz bands since the Wi-Fi mesh system determines which band is best for the connecting device.
+Tom’s Guide offers a good [primer](#recommended-reading) on Wi-Fi mesh technology, but in a nutshell, Wi-Fi mesh systems are almost the same as routers but streamline the process of adding wireless access points while maximizing speed and range. Simple is the key philosophy here--band and AP steering and a mobile app are now common features in mesh systems in order to make managing your network easier. There is no need to have separate network names for 2.4ghz and 5ghz bands since the Wi-Fi mesh system determines which band is best for the connecting device.
 
 After unsuccessfully extending my wireless network's range with  alternatives like wireless repeaters, powerline and MoCA adapters, I highly recommend Wi-Fi mesh systems to anyone who wants to spend less time troubleshooting issues with their routers. The high cost was initially an issue, but Google Wifi and other mid-range mesh systems can be purchased for $200 or so, making it an easier to recommend.
 
@@ -45,7 +45,7 @@ For those who want networking features like VPN and VLAN or have over 40 connect
 
 No matter what product you choose, be sure to thoroughly test the system for issues. That means connect as many devices as you can and start watching high definition videos on multiple devices. Turn on every feature you plan to use—like static IP addresses, VPN and guest network. Every system has problems and the same goes for my recommendation—there isn’t a router that meets everyone’s needs.  
 
-Also make sure to buy the right product SKU, as companies are releasing a confusing amount of SKUs to take advantage of brand recognition and consumer confusion. Not all Netgear Orbis are created equal—without proper research, you could be paying a high price for a low-end product. The Wirecutter’s Wi-Fi mesh system [recommendations](https://thewirecutter.com/reviews/best-wi-fi-mesh-networking-kits/) are listed by model number and also suggests avoiding certain SKUs that are underpowered. 
+Also, make sure to buy the right product SKU, as companies are releasing a confusing amount of SKUs to take advantage of brand recognition and consumer confusion. Not all Netgear Orbis are created equal—without proper research, you could be paying a high price for a low-end product. The Wirecutter’s Wi-Fi mesh system [recommendations](https://thewirecutter.com/reviews/best-wi-fi-mesh-networking-kits/) are listed by model number and also suggests avoiding certain SKUs that are underpowered. 
 
 To get a sense of the SKU confusion, here is a list of products currently available from each major company. I won't bother explaining the differences—it's better to do your own research. 
 
@@ -101,8 +101,8 @@ I originally set up a TP-Link/Google Onhub router and a Google Wifi point togeth
 Not everyone prefers Google Wifi as its simplicity means less control in some cases. I’ve run into issues that could have been resolved if Google Wifi had the following features: 
 
 
-> - Wifi speeds are not sufficient to utilize gigabit internet. Best to go with Netgear Orbi or wired access points if the fastest speeds are important.
-> - Wifi band steering cannot be disabled, meaning the router determines which Wi-Fi band (2.4  5ghz) is best, when sometimes it isn’t. 
+> - Wi-Fi speeds are not sufficient to utilize gigabit internet. Best to go with Netgear Orbi or wired access points if the fastest speeds are important.
+> - Wi-Fi band steering cannot be disabled, meaning the router determines which Wi-Fi band (2.4  5ghz) is best, when sometimes it isn’t. 
 > - VLAN is not supported, but most consumer routers don’t have this feature unfortunately.
 > - Cannot disable internet connectivity on a per device basis.  Family Wifi Pause feature exists, but blocks local and internet access.
 
@@ -125,7 +125,7 @@ At this price range ($250-350), you are encroaching on Netgear Orbi’s territor
 
 **For the budget-conscious who doesn’t mind taking a gamble, the T-Mobile TM-AC1900 router can provide great value, if only the features worked reliably.** The router is a rebranded ASUS RT-AC68U router that normally sells for $100-160, so you can see why this is a steal when it is on sale for $40. 
 
-Though I had major problems using this router, my friend’s router, with stock firmware, hasn’t run into the same problems. I would normally stick with stock firmware, but the router is no longer supported by T-Mobile or ASUS since early 2018, and patches for security issues like the KRACK vulnerability are going to be few and far between.
+Though I had major problems using this router, my friend’s router, using stock firmware, hasn’t run into the same problems. I would normally stick with stock firmware, but the router is no longer supported by T-Mobile or ASUS since early 2018, and patches for security issues like the KRACK vulnerability are going to be few and far between.
 
 ### The Problems 
 I bought a TM-AC1900, thinking that it would be powerful enough for my 25+ devices, but it failed quite hard under normal internet usage. Between the Wi-Fi disconnect issues, broken guest network, difficulty in flashing the router and updating the firmware, lack of security updates, and the time wasted dealing with these issues, I just cannot recommend this router for beginners. There are a few things to consider before purchasing this router:
@@ -135,4 +135,4 @@ I bought a TM-AC1900, thinking that it would be powerful enough for my 25+ devic
 - Features like AiMesh aren’t as fast or reliable as true WiFi mesh systems, according to [Smallnetbuilder](https://www.smallnetbuilder.com/wireless/wireless-reviews/33208-asus-aimesh-reviewed).
 - Features like wireless bridge stopped working after running for one day .
 - ASUS is taking [drastic measures](https://forums.anandtech.com/threads/tm-ac1900-with-rt-asus-ac68u-firmware-reverted-to-t-mobile-firmware.2547847/) to revert the router back to T-Mobile firmware without user permission. This was as recent as June 2018.
-- Custom firmware like Asuswrt-Merlin do not support the TM-AC1900. The creator specifically said so [here](https://www.snbforums.com/threads/the-tm-ac1900-is-not-supported.48056/), [here](https://www.snbforums.com/threads/announcement-running-asuswrt-merlin-and-forks-on-non-asus-devices-is-illegal.44636/), and [here](https://www.snbforums.com/threads/faq-read-me-first-before-posting-a-question.47153/).
+- Custom firmware like Asuswrt-Merlin do not support the TM-AC1900. The firmware creator specifically said so [here](https://www.snbforums.com/threads/the-tm-ac1900-is-not-supported.48056/), [here](https://www.snbforums.com/threads/announcement-running-asuswrt-merlin-and-forks-on-non-asus-devices-is-illegal.44636/), and [here](https://www.snbforums.com/threads/faq-read-me-first-before-posting-a-question.47153/).

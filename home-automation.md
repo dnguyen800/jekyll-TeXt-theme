@@ -20,7 +20,9 @@ article_header:
 
 <!--more-->
 
+#### Jump to:
 
+* [Menu](#menu)
 
 
 
@@ -36,17 +38,8 @@ After fitting three homes with an array of sensors, tablets, speakers, lights an
 
 __Not everything is perfect, but the solution I have is good enough to recommend for beginners.__ What you will find here is a collection of unbiased advice and recommendations on each aspect of the smart home, and an honest opinion on what smart homes are capable of with today’s technology.
 
-## Kramdown-Who is the audience here?
-<div><img class="image image--xl rounded" src="assets/images/other/diy-skill.jpg" align="left" /></div>
 
-### A DIY Skill Level
-
-Not everyone aspires to be an electrician, and neither do I. My product recommendations are for do-it-yourself hobbyists with no professional experience in electrical work, but want to learn. To give an example of skill level needed, I can mount a TV on the wall but I would not run an electrical wire through the wall without an electrician’s help.
-
-
-
-
-## HTML - Who is the audience here?
+##  Who is the audience here?
 <div class="item">
   <div class="item__image">
     <img class="image image--xl rounded" src="assets/images/other/diy-skill.jpg"  />
@@ -112,109 +105,109 @@ It wasn’t easy integrating products made by so many different vendors, but the
 
 If you worry about it, you will never start building your smart home, so don’t worry about it!
 
-
+<a name="menu"></a>
 <div class="grid-container">
   <div class="grid grid--p-2">
     <div class="cell cell--12"><div><h2>Infrastructure</h2></div></div>
-    <div class="cell cell--3"><div><div class="card">
+    <div class="cell cell--3"><a href="/infrastructure/network"><div><div class="card">
       <div class="card__image">
-        <img class="image" src="assets/images/grid/network.jpg"/>
+        <img class="image" src="assets/images/grid/network.jpg"  />
       </div>
-    </div></div></div>
-    <div class="cell cell--3"><div><div class="card">
+    </div></div></a></div>
+    <div class="cell cell--3"><a href="/infrastructure/home_automation_hub"><div><div class="card">
       <div class="card__image">
         <img class="image" src="assets/images/grid/home-automation-hub.jpg"/>
       </div>
-    </div></div></div>
-    <div class="cell cell--3"><div><div class="card">
+    </div></div></a></div>
+    <div class="cell cell--3"><a href="/infrastructure/wireless_standard"><div><div class="card">
       <div class="card__image">
         <img class="image" src="assets/images/grid/smart-home-standard.jpg"/>
       </div>
-    </div></div></div>
-    <div class="cell cell--3"><div><div class="card">
+    </div></div></a></div>
+    <div class="cell cell--3"><a href="/infrastructure/voice_assistant"><div><div class="card">
       <div class="card__image">
         <img class="image" src="assets/images/grid/voice-assistant.jpg"/>
       </div>
-    </div></div></div>    
+    </div></div></a></div>    
 
     <div class="cell cell--12"><div><h2>Media</h2></div></div>
-        <div class="cell cell--3"><div><div class="card">
+        <div class="cell cell--3"><a href="/media/multiroom-audio"><div><div class="card">
       <div class="card__image">
         <img class="image" src="assets/images/grid/multiroom.jpg"/>
       </div>
-    </div></div></div>
-    <div class="cell cell--3"><div><div class="card">
+    </div></div></a></div>
+    <div class="cell cell--3"><a href="/media/home-theater"><div><div class="card">
       <div class="card__image">
         <img class="image" src="assets/images/grid/home-theater.jpg"/>
       </div>
-    </div></div></div>
-    <div class="cell cell--3"><div><div class="card">
+    </div></div></a></div>
+    <div class="cell cell--3"><a href="/media/media-streaming"><div><div class="card">
       <div class="card__image">
         <img class="image" src="assets/images/grid/media-streaming.jpg"/>
       </div>
-    </div></div></div>
+    </div></div></a></div>
     
     <div class="cell cell--12"><div><h2>Smart Home Gadgets</h2></div></div>
-        <div class="cell cell--3"><div><div class="card">
+        <div class="cell cell--3"><a href="/gadgets/smart-display"><div><div class="card">
       <div class="card__image">
         <img class="image" src="assets/images/grid/smart-display.jpg"/>
       </div>
-    </div></div></div>
-    <div class="cell cell--3"><div><div class="card">
+    </div></div></a></div>
+    <div class="cell cell--3"><a href="/gadgets/tablet"><div><div class="card">
       <div class="card__image">
         <img class="image" src="assets/images/grid/tablet.jpg"/>
       </div>
-    </div></div></div>
-    <div class="cell cell--3"><div><div class="card">
+    </div></div></a></div>
+    <div class="cell cell--3"><a href="/gadgets/garage-door"><div><div class="card">
       <div class="card__image">
         <img class="image" src="assets/images/grid/garage-door.jpg"/>
       </div>
-    </div></div></div>
+    </div></div></a></div>
     
     <div class="cell cell--12"><div><h2>Security</h2></div></div>
-        <div class="cell cell--3"><div><div class="card">
+        <div class="cell cell--3"><a href="/security/camera"><div><div class="card">
       <div class="card__image">
         <img class="image" src="assets/images/grid/camera.jpg"/>
       </div>
-    </div></div></div>
-    <div class="cell cell--3"><div><div class="card">
+    </div></div></a></div>
+    <div class="cell cell--3"><a href="/security/security-system"><div><div class="card">
       <div class="card__image">
         <img class="image" src="assets/images/grid/security-system.jpg"/>
       </div>
-    </div></div></div>
-    <div class="cell cell--3"><div><div class="card">
+    </div></div></a></div>
+    <div class="cell cell--3"><a href="/security/sensor"><div><div class="card">
       <div class="card__image">
         <img class="image" src="assets/images/grid/sensor.jpg"/>
       </div>
-    </div></div></div>
-    <div class="cell cell--3"><div><div class="card">
+    </div></div></a></div>
+    <div class="cell cell--3"><a href="/security/smart-lock"><div><div class="card">
       <div class="card__image">
         <img class="image" src="assets/images/grid/smart-lock.jpg"/>
       </div>
-    </div></div></div>
+    </div></div></a></div>
 
 
     <div class="cell cell--12"><div><h2>Lighting</h2></div></div>
-        <div class="cell cell--3"><div><div class="card">
+        <div class="cell cell--3"><a href="/lighting/simple-lighting"><div><div class="card">
       <div class="card__image">
         <img class="image" src="assets/images/grid/simple-lighting.jpg"/>
       </div>
-    </div></div></div>
-    <div class="cell cell--3"><div><div class="card">
+    </div></div></a></div>
+    <div class="cell cell--3"><a href="/lighting/smart-bulb"><div><div class="card">
       <div class="card__image">
         <img class="image" src="assets/images/grid/smart-bulb.jpg"/>
       </div>
-    </div></div></div>
-    <div class="cell cell--3"><div><div class="card">
+    </div></div></a></div>
+    <div class="cell cell--3"><a href="/lighting/smart-switch"><div><div class="card">
       <div class="card__image">
         <img class="image" src="assets/images/grid/smart-switch.jpg"/>
       </div>
-    </div></div></div>
-    <div class="cell cell--3"><div><div class="card">
+    </div></div></a></div>
+    <div class="cell cell--3"><a href="/lighting/smart-switch"><div><div class="card">
       <div class="card__image">
         <img class="image" src="assets/images/grid/light-strip.jpg"/>
       </div>
-    </div></div></div>
+    </div></div></a></div>
   </div>  
 
 

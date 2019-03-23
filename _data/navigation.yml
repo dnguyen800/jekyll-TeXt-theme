@@ -1,16 +1,14 @@
 header:
-  - title:      Archive
-    url:        /archive.html
-
   - title:      About
     url:        /about.html
 
   - title:      Home Automation
     url:        /home-automation.html
 
-    
-  - title:      Grid
-    url:        /home-automation-grid.html
+  - title:      Menu
+    url:        /home-automation.html#menu
+                 
+
     
     
 about-me:
