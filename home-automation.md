@@ -115,17 +115,17 @@ If you worry about it, you will never start building your smart home, so don’t
         <img class="image" src="assets/images/grid/network.jpg"  />
       </div>
     </div></div></a></div>
-    <div class="cell cell--3"><a href="/infrastructure/home_automation_hub"><div><div class="card">
+    <div class="cell cell--3"><a href="/infrastructure/home-automation-hub"><div><div class="card">
       <div class="card__image">
         <img class="image" src="assets/images/grid/home-automation-hub.jpg"/>
       </div>
     </div></div></a></div>
-    <div class="cell cell--3"><a href="/infrastructure/wireless_standard"><div><div class="card">
+    <div class="cell cell--3"><a href="/infrastructure/wireless-standard"><div><div class="card">
       <div class="card__image">
         <img class="image" src="assets/images/grid/smart-home-standard.jpg"/>
       </div>
     </div></div></a></div>
-    <div class="cell cell--3"><a href="/infrastructure/voice_assistant"><div><div class="card">
+    <div class="cell cell--3"><a href="/infrastructure/voice-assistant"><div><div class="card">
       <div class="card__image">
         <img class="image" src="assets/images/grid/voice-assistant.jpg"/>
       </div>

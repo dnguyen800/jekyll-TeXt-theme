@@ -4,7 +4,7 @@ title: Home Automation Hub
 short_title: Home Automation Hub
 excerpt: One of the most critical infrastructure components to your smart home.
 category: [infrastructure, home automation]
-permalink: /infrastructure/home_automation_hub
+permalink: /infrastructure/home-automation-hub
 key: infrastructure-home_automation_hub
 aside:
   toc: true
