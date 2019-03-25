@@ -28,9 +28,10 @@ article_header:
 
 I’ve personally tested the following:
 
-| Google Wifi & TP-Link Onhub| Amplifi HD (AFI-R) | ASUS TM-AC1900 Router|
-|:-------:|:--------:|:---------:|
-| ![Google Wifi photo](\assets\images\product-photo\google-wifi-photo.jpg){:.image--sm.align-center} | ![Amplifi photo](\assets\images\product-photo\amplifi-photo.png){:.image--sm} | ![Asus photo](\assets\images\product-photo\asus-tmac1900-photo.jpg){:.image--sm} |
+|---
+| ![](\assets\images\logo\google-wifi.png){:.image--lg} |  ![](\assets\images\logo\amplifi.png){:.image--md} | ![](\assets\images\logo\asus.png){:.image--sm} 
+|:-:|:-:|:-:
+| **Google Wifi Mesh Wi-Fi Router<br>TP-Link Onhub TGR1900** | **Amplifi HD Router (AFI-R)** | **T-Mobile  TM-AC1900 Router** 
 
 ## What you need to know
 
@@ -59,9 +60,9 @@ To get a sense of the SKU confusion, here is a list of products currently availa
 
 ### Considerations before buying a Wi-Fi mesh system
 
-> - Know the model # that fits your needs—don’t just buy based on brand alone.
-> - What is more important—speed or reliability? Household that watch multiple 4K video streams and have gigabit internet should consider faster but less reliable systems  like Netgear Orbi.
-> - Test the router thoroughly as it’s impossible to guarantee everything will work with your mix of devices.
+> - **Know the model # that fits your needs**—don’t just buy based on brand alone.
+> - **What is more important—speed or reliability?** Household that watch multiple 4K video streams and have gigabit internet should consider faster but less reliable systems  like Netgear Orbi.
+> - **Test the router thoroughly** as it’s impossible to guarantee everything will work with your mix of devices.
 
 ### What You Get With a Wi-Fi mesh system
 
@@ -81,7 +82,7 @@ To get a sense of the SKU confusion, here is a list of products currently availa
 
 ## Google Wifi
 
-![Google Wifi logo](\assets\images\logo\google-wifi.png){:.image--xl}  ![Google Wifi photo](\assets\images\product-photo\google-wifi-photo.jpg){:.image--md} 
+ ![Google Wifi photo](\assets\images\product-photo\google-wifi.jpg){:.image--md.align-left} 
 
 
 **If you want a hassle-free Wi-Fi mesh system with decent set of features, go with Google Wifi.** It is not the fastest Wi-Fi mesh system, but the reliability of Google Wifi convinced me to buy one. It is incredibly easy to setup and manage the network using the Google Wifi app, as you would expect from Google. No more clunky web interfaces here—routers finally feel like the modern connected devices they should be.  Security updates are frequent, though new features are rare or nonexistent for a two year-old product. That’s fine with me—I’ll trade reliability for features, since features are meaningless if it doesn’t work properly. 
@@ -108,7 +109,7 @@ Not everyone prefers Google Wifi as its simplicity means less control in some ca
 
 
 ## Amplifi HD
-![Amplifi logo](\assets\images\logo\amplifi.png){:.image--xl} ![Amplifi photo](\assets\images\product-photo\amplifi-photo.png){:.image--md} 
+![Amplifi photo](\assets\images\product-photo\amplifi.png){:.image--md.align-left} 
 
 
 **If you want faster wifi speed and reliability, consider purchasing two Amplifi HD routers to form a WiFi mesh system.** It is more expensive than Google Wifi and sales are infrequent, but I have personally used it for the past year and found it to be solid. Setup and maintenance is almost as easy as Google Wifi, though tasks like assigning static IP addresses will reset the router on each assignment.  When you’re assigning addresses to over twenty devices, the waiting can be tedious. Using as a single router, the Amplifi HD’s Wi-Fi performance is worse than my Netgear R7000, but as a WiFi mesh system with wired backhaul, all my devices connect without a problem.
@@ -120,7 +121,7 @@ At this price range ($250-350), you are encroaching on Netgear Orbi’s territor
 
 
 ## Asus TM-AC1900
-![Asus logo](\assets\images\logo\asus.png){:.image--xl} ![Asus photo](\assets\images\product-photo\asus-tmac1900-photo.jpg){:.image--sm} 
+![Asus photo](\assets\images\product-photo\asus-tmac1900.jpg){:.image--xl.align-left} 
 
 
 **For the budget-conscious who doesn’t mind taking a gamble, the T-Mobile TM-AC1900 router can provide great value, if only the features worked reliably.** The router is a rebranded ASUS RT-AC68U router that normally sells for $100-160, so you can see why this is a steal when it is on sale for $40. 
@@ -131,8 +132,8 @@ Though I had major problems using this router, my friend’s router, using stock
 I bought a TM-AC1900, thinking that it would be powerful enough for my 25+ devices, but it failed quite hard under normal internet usage. Between the Wi-Fi disconnect issues, broken guest network, difficulty in flashing the router and updating the firmware, lack of security updates, and the time wasted dealing with these issues, I just cannot recommend this router for beginners. There are a few things to consider before purchasing this router:
 
 
-- [The steps](https://slickdeals.net/f/12859015-t-mobile-tm-ac1900-wifi-cellspot-router-certified-pre-owned-40-free-s-h) to flash from T-Mobile to ASUS firmware can be difficult for beginners.
-- Features like AiMesh aren’t as fast or reliable as true WiFi mesh systems, according to [Smallnetbuilder](https://www.smallnetbuilder.com/wireless/wireless-reviews/33208-asus-aimesh-reviewed).
-- Features like wireless bridge stopped working after running for one day .
-- ASUS is taking [drastic measures](https://forums.anandtech.com/threads/tm-ac1900-with-rt-asus-ac68u-firmware-reverted-to-t-mobile-firmware.2547847/) to revert the router back to T-Mobile firmware without user permission. This was as recent as June 2018.
-- Custom firmware like Asuswrt-Merlin do not support the TM-AC1900. The firmware creator specifically said so [here](https://www.snbforums.com/threads/the-tm-ac1900-is-not-supported.48056/), [here](https://www.snbforums.com/threads/announcement-running-asuswrt-merlin-and-forks-on-non-asus-devices-is-illegal.44636/), and [here](https://www.snbforums.com/threads/faq-read-me-first-before-posting-a-question.47153/).
+> - [The steps](https://slickdeals.net/f/12859015-t-mobile-tm-ac1900-wifi-cellspot-router-certified-pre-owned-40-free-s-h) to flash from T-Mobile to ASUS firmware can be difficult for beginners.
+> - Features like AiMesh aren’t as fast or reliable as true WiFi mesh systems, according to [Smallnetbuilder](https://www.smallnetbuilder.com/wireless/wireless-reviews/33208-asus-aimesh-reviewed).
+> - Features like wireless bridge stopped working after running for one day .
+> - ASUS is taking [drastic measures](https://forums.anandtech.com/threads/tm-ac1900-with-rt-asus-ac68u-firmware-reverted-to-t-mobile-firmware.2547847/) to revert the router back to T-Mobile firmware without user permission. This was as recent as June 2018.
+> - Custom firmware like Asuswrt-Merlin do not support the TM-AC1900. The firmware creator specifically said so [here](https://www.snbforums.com/threads/the-tm-ac1900-is-not-supported.48056/), [here](https://www.snbforums.com/threads/announcement-running-asuswrt-merlin-and-forks-on-non-asus-devices-is-illegal.44636/), and [here](https://www.snbforums.com/threads/faq-read-me-first-before-posting-a-question.47153/).

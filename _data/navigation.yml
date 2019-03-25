@@ -2,11 +2,13 @@ header:
   - title:      About
     url:        /about.html
 
+  - title:      Menu
+    url:        /home-automation.html#menu    
+    
   - title:      Home Automation
     url:        /home-automation.html
 
-  - title:      Menu
-    url:        /home-automation.html#menu
+
                  
 
     

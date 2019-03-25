@@ -17,3 +17,9 @@
 .image--xs {
   width: map-get($image, width-xs);
 }
+
+.image--caption {
+  text-align: center;
+  font-size: .8rem;
+  color: light-grey;
+}

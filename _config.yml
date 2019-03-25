@@ -195,7 +195,7 @@ collections:
     output: true
   gadgets:
     output: true
-  home_security:
+  security:
     output: true
 
   
