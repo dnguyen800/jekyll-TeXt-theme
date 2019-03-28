@@ -95,8 +95,8 @@ People are going to buy the TV they can want, regardless of my recommendations. 
 
 ### Considerations before buying a smart TV
 
-> - The brand you select will limit your media service options. Fire TVs don’t support Youtube and Youtube TV. Roku TVs seems to support everything.
-> - Does the TV support HDMI-CEC and ARC or its successor, eARC? Does it support advanced CEC functions, like arrow keys, or play/pause?
+> - **The brand you select will limit your streamin media options**. Fire TVs don’t support Youtube and Youtube TV. Roku TVs seems to support everything.
+> - **Does the TV support HDMI-CEC and ARC or its successor, eARC?** Does it support advanced CEC functions, like arrow keys, or play/pause?
 
 ### What you get with a Smart TV
 
@@ -118,30 +118,38 @@ Google Assistant integration exists, allowing you to turn on the TV or change th
 
 ### Installation and Smart Home Integration
 
-#### Integrations 
+The process to pair the TV to Home Assistant using the [**``LG WebOS``**](https://www.home-assistant.io/components/media_player.webostv/) component is lengthy--there are some several configuration settings on the TV to enable.
 
-<figure class="figure figure--25">
+If the TV is connected wirelessly, then it gets more complicated. Turning on the TV this way requires the HA component **``Wake On Lan``** to be anbled. You need to know the TV's MAC address, which can be found in your network router's device list. Wired and wireless interfaces on the TV have separate MAC addresses.
+
+But once it works, it's great! I hope you can get it to work, as not everyone can follow instructions.
+
+> - Turn on LG COnnect Apps
+> - On newer models (2017+), WakeOnLan may need to be enabled in the TV settings by going to Settings > General > Mobile TV On > Turn On Via WiFi instructions.
+> - Enable the ``wake-on-lan:`` in Home Assistant configuration.yaml
+
+<figure class="figure figure--50">
  <img src="/assets/images/integrations/lg-webos-ha.png" alt="Small picture of a kitten" />
  <figcaption>
  <b>Home Assistant: Good</b><br>Several steps to complete on HA and the TV.
  </figcaption>
 </figure>
 
-<figure class="figure figure--25">
+<figure class="figure figure--50">
  <img src="/assets/images/integrations/google-home.png" alt="Small picture of a kitten" style="width: 100%" />
  <figcaption>
  <b>Voice: Great</b><br>Pair the TV using the Google Home app.
  </figcaption>
 </figure>
 
-<figure class="figure figure--25">
+<figure class="figure figure--50">
  <img src="/assets/images/integrations/na.png" alt="Small picture of a kitten" style="width: 100%; height: 100%" />
  <figcaption>
  <b>SmartThings: None</b><br> Integration does not exist.
  </figcaption>
 </figure>
 
-<figure class="figure figure--25">
+<figure class="figure figure--50">
  <img src="/assets/images/integrations/lg-webos-app.png" alt="Small picture of a kitten" style="width: 100%" />
  <figcaption>
  <b>Native App: Great</b><br>It's an LG remote on your phone!
@@ -154,11 +162,11 @@ Google Assistant integration exists, allowing you to turn on the TV or change th
 
  ![](\assets\images\logo\sony-bravia.png){:.image--xl.align-left}
 
-I briefly tested the Sony Bravia XBR X900F, which has Android TV, Google Assistant, and Chromecast Built-in. You would think that with all these Google parts inside, it should be some kind of sentient mega TV, but it isn’t. Chromecast works as expected, but Google Assistant doesn’t work unless the TV is on. I can’t turn on the TV with my voice unless I have another Google Home speaker nearby.  Android TV is still a slow, dull user interface, but it’s not bad enough to the point where a media streaming device is needed. 
+I briefly tested the **``Sony Bravia XBR X900F``**, which has Android TV, Google Assistant, and Chromecast Built-in. You would think that with all these Google parts inside, it should be some kind of sentient mega TV, but it isn’t. Chromecast works as expected, but Google Assistant doesn’t work unless the TV is on. I can’t turn on the TV with my voice unless I have another Google Home speaker nearby.  Android TV is still a slow, dull user interface, but it’s not bad enough to the point where a media streaming device is needed. 
 
 ### Installation and Smart Home Integration
 
-Home Assistant sees the Bravia TV as two separate entities: a Chromecast and Android TV media player. Using the **``Bravia TV component``** is easy to connect. Powering on, changing inputs, and reporting power state works, though it takes a few seconds to update state. 
+Home Assistant treats the Bravia TV as two separate entities: a Chromecast and Android TV media player. Using the **``Bravia TV component``** is easy to connect to Home Assistant. Powering on, changing inputs, and reporting power state works, though it takes a few seconds to update state. 
 
 The TV has Chromecast Built-In, which is detected automatically in Home Assistant using the **``Discovery``** component. It works just like the [Chromecast](\media\home-theater#chromecast).
 
@@ -180,7 +188,7 @@ I've personally tested the following:
 |---
 | ![](\assets\images\logo\xboxone.png){:.image--lg} |  ![](\assets\images\logo\sony-ps4.png){:.image--lg} | ![](\assets\images\logo\nintendo.png){:.image--lg} 
 |:-:|:-:|:-:
-| **Xbox One X** | **Playstation 4 Pro** | **Nintendo Switch** 
+| **Xbox One X** | **Playstation 4 Pro** | **Nintendo Switch (2017)** 
 
 
 ## What you need to know
@@ -189,12 +197,13 @@ Video game consoles have always been a part of my media center, so it would be a
 
 Consoles aren’t known to be open platforms, but several clever people developed ways to connect the Xbox One and Playstation 4 consoles to Home Assistant. These are unofficial methods that Sony or Microsoft could discontinue in the future, but I’ll give it a couple of years before that happens.
 
-With Home Assistant integrations, I can see the game currently playing (see examples below). Not exactly useful, but it sure looks nice on the UI. The other benefit is that my TV lighting automations will be even more precise, now that I can detect if a game is playing.
+With Home Assistant integrations, I can see the game currently playing (see examples below). Not exactly useful, but it sure looks cool  on Home Assistant!. The other benefit is that my TV lighting automations will be even more precise, now that I can detect if a game is playing.
 
 ### Considerations before buying a video game console
 
-> - Only the Xbox One S and X support 4K Blu-ray. Playstation 4 Pro can play regular Blu-rays only.
-> - If you use it as a media streaming device, you should purchase a media remote or use a Logitech Harmony remote.
+> - **Only the Xbox One S and X support 4K Blu-ray.** Playstation 4 Pro can play regular Blu-rays only.
+> - **If you use it as a media streaming device, you should purchase a media remote or use a Logitech Harmony remote.**
+> **Consoles are slightly less convenient than media streaming devices to watch videos. It takes longer to boot up and start watching.** You also lose a few features like voice control and casting.  
 
 ### What you get with integrating a video game console
 
@@ -226,28 +235,28 @@ The initial setup on Home Assistant is only difficult if you don’t read the in
 
 Xbox status updates to Home Assistant are quick—within one to two seconds—so lighting automations are instant when I start playing a game. Videogame cover art appears automatically when a game is playing, which is a nice touch.
 
-<figure class="figure figure--25">
+<figure class="figure figure--50">
  <img src="/assets/images/integrations/xboxone-ha.gif" alt="Small picture of a kitten" />
  <figcaption>
  <b>Home Assistant: Difficult</b><br>Can be hard to install.
  </figcaption>
 </figure>
 
-<figure class="figure figure--25">
+<figure class="figure figure--50">
  <img src="/assets/images/integrations/amazon-echo.jpg" alt="Small picture of a kitten" style="width: 100%" />
  <figcaption>
  <b>Voice: Great</b><br>Alexa works,  Google Assistant is coming.
  </figcaption>
 </figure>
 
-<figure class="figure figure--25">
+<figure class="figure figure--50">
  <img src="/assets/images/integrations/na.png" alt="Small picture of a kitten" style="width: 100%; height: 100%" />
  <figcaption>
  <b>SmartThings: None</b><br> Integration does not exist.
  </figcaption>
 </figure>
 
-<figure class="figure figure--25">
+<figure class="figure figure--50">
  <img src="/assets/images/integrations/xboxone-app.png" alt="Small picture of a kitten" style="width: 100%" />
  <figcaption>
  <b>Native App: Average</b><br>Basic controls, no context.
@@ -259,11 +268,11 @@ Xbox status updates to Home Assistant are quick—within one to two seconds—so
 
  ![](\assets\images\product-photo\playstation4.png){:.image--xl.align-left}
 
-As of Home Assistant 0.89, the Playstation 4 is supported with the same features as the XboxOne add-on. It is even easier to authenticate using the new Home Assistant integration process, which makes this an easy recommendation if you already have a PS4. Most of the popular streaming video apps are available on PS4--even  Plex! Remotely powering on the PS4 now works, so you can now use voice control for that. I’m happy that more people can use this integration and show off the game playing, and design lighting automations based on the PS4’s state.
+As of Home Assistant 0.89, the Playstation 4 is supported with the same features as the Xbox One add-on. It is even easier to authenticate using the new Home Assistant integration process, which makes this an easy recommendation if you already have a PS4. Most of the popular streaming video apps are available on PS4--even Plex! Remotely powering on the PS4 now works, so you can now use voice control for that. I’m happy that more people can use this integration and show off the game playing, and design lighting automations based on the PS4’s state.
 
 ### Installation and Smart Home Integration
 
-I haven’t had any authentication issues with the Playstation 4 add-on like I did with the Xbox One. With the new component added to Home Assistant 0.89, installation is a breeze compared to the old method. For reference, here is the tutorial from Home Assistant user @cheynespc for directions to install the old Playstation 4 Hass.io add-on.
+I haven’t had any authentication issues with the Playstation 4 add-on like I did with the Xbox One. With the new component added to **Home Assistant 0.89**, installation is a breeze compared to the old method. For reference, here is the tutorial from Home Assistant user @cheynespc for directions to install the old Playstation 4 Hass.io add-on.
 
 Video game cover art works on some but not all games. 
 
@@ -420,7 +429,7 @@ I’ve personally tested the following:
 The new lineup of media streaming devices continues to impress every year. With more features like 4K, voice control, and HDR added into physically smaller devices, I feel like I can constantly upgrade my old TV at a cheap price. Indeed, my 2015 Vizio TV is more useful with a Roku Streaming Stick+ so I no longer have to browse through a slow, ancient web interface. 
 
 {:.info}
-Though media streaming devices are capable of impressive feats, I’ve found that the best TV watching experience lies with a high-end smart TV like the LG OLED series.  The gyroscopic remote controls make it as easy as possible for anyone to pick up a remote and intuitively browse through the TV’s wide selection of apps. The LG OLED TVs are really impressive, if you can afford it. See my TV Section to learn more.
+Though media streaming devices are capable of impressive feats, I’ve found thxat the best TV watching experience lies with a high-end smart TV like the LG OLED series.  The gyroscopic remote controls make it as easy as possible for anyone to pick up a remote and intuitively browse through the TV’s wide selection of apps. The LG OLED TVs are really impressive, if you can afford it. See my TV Section to learn more.
 
 ### Considerations before buying a media streaming device
 

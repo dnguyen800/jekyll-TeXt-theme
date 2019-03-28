@@ -164,6 +164,13 @@ If you worry about it, you will never start building your smart home, so don’t
         <img class="image" src="assets/images/grid/garage-door.jpg"/>
       </div>
     </div></div></a></div>
+    <div class="cell cell--3"><a href="/gadgets/thermostat"><div><div class="card">
+      <div class="card__image">
+        <img class="image" src="assets/images/grid/thermostat.jpg"/>
+      </div>
+    </div></div></a></div>
+    
+    
     
     <div class="cell cell--12"><div><h2>Security</h2></div></div>
         <div class="cell cell--3"><a href="/security/camera"><div><div class="card">

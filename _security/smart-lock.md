@@ -1,13 +1,30 @@
 ---
 layout: article
 title: Smart Locks
-category: home security
+short_title: Smart Locks
+excerpt: Music, video, blah blah blah.
+category: [security, home automation]
 permalink: /security/smart-lock
+key: security-smart_lock
+aside:
+  toc: true
+banner: assets/images/overlay/smart-lock.jpg
+mode: immersive
+header:
+  theme: dark
+article_header:
+  type: overlay
+  theme: dark
+  background_color: '#203028'
+  background_image:
+    gradient: 'linear-gradient(135deg, rgba(34, 139, 87 , .4), rgba(139, 34, 139, .4))'
+    src: /assets/images/overlay/smart-lock.jpg
 
 ---
-## Smart Locks
-**Published on xx/xx/2019**
-<front page banner here>
+
+<!--more-->
+
+
 
 **Competitors in this space:** August, Schlage, Next x Yale
 

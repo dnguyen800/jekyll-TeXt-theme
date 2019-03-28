@@ -76,7 +76,7 @@ There are many home automation hubs to choose from that perform similar function
 > - SmartThings device handlers
 > - [WebCoRE for SmartThings](https://wiki.webcore.co/) lets users build complex automations. The tool is almost as easy as writing English.
 > - Forum post detailing integration of SmartThings with Home Assistant using MQTT, written by yours truly!
-> - [Get started with Home Assistant!](https://www.home-assistant.io/getting-started/) Learn how to install and configure it, or just be overwhelmed. 
+> - [Get started with Home Assistant!](https://www.home-assistant.io/getting-started/) Try out the [demo!](https://demo.home-assistant.io/#/lovelace/0) Learn how to install and configure it, or just be overwhelmed. 
 > - [My Home Assistant configuration](https://github.com/dnguyen800/home-assistant-configuration-example) —great as a learning tool for building the UI.
 
 
@@ -85,7 +85,6 @@ There are many home automation hubs to choose from that perform similar function
 ## Samsung SmartThings and Home Assistant
 
 ![Home Assistant logo](\assets\images\logo\ha-st.png){:.image--lg.align-left}
-
 
 **Using Samsung SmartThings and Home Assistant together provides the functionality I need to do a proper media-focused smart home, but I hope to remove SmartThings eventually.** I first started off using SmartThings, then tried Home Assistant, and eventually decided to use both hubs together to leverage their strengths and mitigate weaknesses. 
 
@@ -117,6 +116,8 @@ The Home Assistant web interface. It tooks months of learning to get it to this 
 </figure>
 
 Speaking of __Home Assistant__, it is an amazing, unstable platform that I use for its slick UI, hundreds of integrations, and advanced media automations. It is open source and can be run on cheap hardware like a Raspberry Pi 3B+, but nothing slower than that. Though not every integration is easy to set up, Home Assistant works with the latest and greatest products--from TVs and AV receivers to robot vacuums, lights, and homemade hardware. Without Home Assistant, I would have given up on home automation altogether, after being disappointed by SmartThings’ inability to do anything I would consider “smart.”
+
+I could continue to explain why Home Assistant is great, but it's easier to try out the [demo](https://demo.home-assistant.io/#/lovelace/0) yourself.
 
 Home Assistant is necessary to do media automations that can show off the home theater. In my setup, Home Assistant acts like a universal remote, but much smarter — it knows what devices are powered on and what they’re currently doing.  Google Assistant integration with Home Assistant also allows provides much better voice control over media devices. I have several example of how Home Assistant has automated a few things in my home:
 

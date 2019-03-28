@@ -6,6 +6,8 @@ author_profile: true
 
 ---
 
+<!--more-->
+
 ## About this site
 
 When I first started dabbling with home automation, it was a struggle to find the right information at my level.  I read through forums and blogs riddled with ads and content that read more like product press releases, but didn't learn much from those sites, except that there has to be a better way to introduce people to home automation.
