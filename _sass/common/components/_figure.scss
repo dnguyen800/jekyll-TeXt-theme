@@ -16,9 +16,20 @@
   border: thin silver solid;
   padding: 0.5em;
 }
+
 .figure--50 {
   float: left;
   width: 50%;
+  text-align: center;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  padding: 0.5em;
+}
+
+.figure--33 {
+  float: left;
+  width: 33%;
   text-align: center;
   font-size: smaller;
   text-indent: 0;

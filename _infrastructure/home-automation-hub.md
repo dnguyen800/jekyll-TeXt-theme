@@ -2,7 +2,7 @@
 layout: article
 title: Home Automation Hub
 short_title: Home Automation Hub
-excerpt: One of the most critical infrastructure components to your smart home.
+excerpt: Though some of its capabilities are made obsolete by Google Home and Alexa, the home automation hub is still needed as the brain that powers the smart home.
 category: [infrastructure, home automation]
 permalink: /infrastructure/home-automation-hub
 key: infrastructure-home_automation_hub
@@ -117,7 +117,9 @@ The Home Assistant web interface. It tooks months of learning to get it to this 
 
 Speaking of __Home Assistant__, it is an amazing, unstable platform that I use for its slick UI, hundreds of integrations, and advanced media automations. It is open source and can be run on cheap hardware like a Raspberry Pi 3B+, but nothing slower than that. Though not every integration is easy to set up, Home Assistant works with the latest and greatest products--from TVs and AV receivers to robot vacuums, lights, and homemade hardware. Without Home Assistant, I would have given up on home automation altogether, after being disappointed by SmartThings’ inability to do anything I would consider “smart.”
 
-I could continue to explain why Home Assistant is great, but it's easier to try out the [demo](https://demo.home-assistant.io/#/lovelace/0) yourself.
+I could continue to explain why Home Assistant is great, but it's easier to try out the [demo](https://demo.home-assistant.io/#/lovelace/0) yourself. Or watch this video I made:
+
+<div>{%- include extensions/youtube.html id='v1c393EJ5ww' -%}</div>
 
 Home Assistant is necessary to do media automations that can show off the home theater. In my setup, Home Assistant acts like a universal remote, but much smarter — it knows what devices are powered on and what they’re currently doing.  Google Assistant integration with Home Assistant also allows provides much better voice control over media devices. I have several example of how Home Assistant has automated a few things in my home:
 

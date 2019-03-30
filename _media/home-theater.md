@@ -2,7 +2,7 @@
 layout: article
 title: Home Theater
 short_title: Home Theater
-excerpt: Home theater shit!!!!
+excerpt: Movie theater-like experience!
 category: [media, home theater, home automation]
 permalink: /media/home-theater
 key: media-home_theater
@@ -22,6 +22,8 @@ article_header:
 ---
 
 <!--more-->
+<!-- This is commented out. -->
+
 <figcaption><b>Image:</b><a href="https://unsplash.com/@jenskreuter"> Jens Kreuter</a></figcaption>
 
 
@@ -62,7 +64,7 @@ I’ve personally tested the following:
 |:-:|:-:|:-:|:-:
 | **P-Series 65” (2015)** | **OLED65C8PUAP 65” (2017)** | **XBR900F 55” (2018)** | **UN55J620DAF 55” (2016)**
 
-### What you need to know
+## What you need to know
 
 My goal is to keep things simple in life, but that can be hard to achieve with a home theater. I’m still working on reducing the number of remotes down to one, but I’m getting close with the help of two features you likely didn’t realize existed in your TV: **``HDMI-CEC``** and **``HDMI ARC (Audio Return Channel)``**. 
 
@@ -171,13 +173,19 @@ Home Assistant treats the Bravia TV as two separate entities: a Chromecast and A
 The TV has Chromecast Built-In, which is detected automatically in Home Assistant using the **``Discovery``** component. It works just like the [Chromecast](\media\home-theater#chromecast).
 
 
+
+
 # Video Game Consoles
-<figure style="width: 100%;" >
- <img src="\assets\images\overlay\videogame.jpg" alt="An example of the universal remote control function I created in Home Assistant" />
- <figcaption>
-<b>Image:</b> Fabian Albert on <a href="https://unsplash.com/@serumfabian">Unsplash</a>
- </figcaption>
-</figure>
+
+<div class="hero hero--dark" style='height: 500px; background-image: url("/assets/images/overlay/videogame.jpg");'>
+  <div class="hero__content">
+    <h1>Video Game Consoles</h1>
+    <p>Yes, they can integrate into the smart home too.</p>
+  </div>
+</div>
+<figcaption>
+<i>| Fabian Albert on <a href="https://unsplash.com/@serumfabian">Unsplash</a></i>
+</figcaption>
 
 **Published xx/xx/2019**
 
@@ -330,7 +338,7 @@ I’ve personally tested the following:
 |:-:|:-:
 | **VSX-1131 (2016)** | **Onkyo TX-NR509 (2011)** 
 
-### What you need to know
+## What you need to know
 
 These days, most people don’t own AV receivers and the massive speakers that accompany them. They are bulky and tend to dominate the living room space, so I usually recommend customers invest in a good sound bar for home theater quality sound. If you still want or already have a receiver, you might as well integrate it with the rest of the smart home. Luckily, the latest AV receivers are easy to integrate into Home Assistant!
 
@@ -425,7 +433,7 @@ I’ve personally tested the following:
 |:-:|:-:|:-:|:-:
 | **Chromecast Ultra <br> Chromecast (1080p)<br>Chromecast (720p)** | **Roku Streaming Stick+<br> Roku Premiere** | **Amazon Fire TV 2 (2016)<br>Fire TV Stick (2014)** | **Apple TV 2**
 
-### What you need to know
+## What you need to know
 The new lineup of media streaming devices continues to impress every year. With more features like 4K, voice control, and HDR added into physically smaller devices, I feel like I can constantly upgrade my old TV at a cheap price. Indeed, my 2015 Vizio TV is more useful with a Roku Streaming Stick+ so I no longer have to browse through a slow, ancient web interface. 
 
 {:.info}

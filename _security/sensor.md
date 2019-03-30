@@ -67,7 +67,7 @@ I have my recommendation of contact sensors listed below, but there are plenty o
 
 
 ## Dome Z-Wave Plus Door Sensors (DMWD1) 
-![Image: Dome](\assets\images\product-photo\dome-door-sensor.jpg){:.image--xl.align-left}
+![Image: Dome](\assets\images\product-photo\dome-door-sensor.jpg){:.image--md.align-left}
 
 I was able to snag the Dome Z-Wave Plus Door Sensors (DMWD1) during a sale from domeha.com and it was a good purchase at the time. **But no matter how good the Dome DMWD1 sensor is, the irregular battery size is a huge drawback as no one wants to buy a pair of batteries for one device.** Heck, it even uses a different battery size than the Dome motion sensor (CR123A)! I prefer a lower cost than a smaller sensor size, and I would have not purchased this if I had paid more attention to the battery size.
 
@@ -107,7 +107,7 @@ I used these sensors with SmartThings and a [custom device handler by user @krla
 
 
 ## Monoprice Z-Wave Plus Door Sensors (No Logo)
-![ | *Monoprice*](\assets\images\product-photo\monoprice-door.jpg){:.image--xl.align-left}
+![ | *Monoprice*](\assets\images\product-photo\monoprice-door.jpg){:.image--md.align-left}
 
 **The Monoprice Z-Wave Plus Door Sensors are a bit pricey, but they work as advertised and are a great way to use my spare AAA batteries.** The sensors won’t win any awards for design—these are the bulkiest door sensors I have and and can be an eyesore. If you’re looking for hidden sensors, then look into Monoprice’s recessed sensors. Make sure not to buy the **``Stitch version``** (Monoprice’s new line of WiFi-based smart devices) as they are not compatible with any of the home automation hubs.
 
@@ -135,7 +135,7 @@ Pairing the sensors is straightforward in SmartThings and Home Assistant, so I w
 
 ## Visonic Door Sensor (MCT-340E) 
 
-![](\assets\images\product-photo\visonic-sensor.jpg){:.image--xl.align-left}
+![](\assets\images\product-photo\visonic-sensor.jpg){:.image--md.align-left}
 
 **I bought the Visonic Door Sensor (MCT-340E) on a whim because they were so cheap ($10), but the small profile, battery size (CR2032), and reliability convinced me that this would make a solid budget recommendation.** The sensor also monitors temperature, though I have never received an accurate reading. If you don’t have any issues with your Zigbee network, then I would recommend giving these sensors a try.
 
@@ -226,7 +226,7 @@ I’ve tested a few motion sensors and I found a few that I like. All of them ha
 
 ## Dome Home Automation Z-Wave Plus (DMMS1) sensor
 
-![](\assets\images\product-photo\dome-motion-sensor.jpg){:.image--lg.align-left}
+![](\assets\images\product-photo\dome-motion-sensor.jpg){:.image--md.align-left}
 
 My first motion sensor was the Dome Home Automation Z-Wave Plus **``(DMMS1)``** sensor, and I can say it is the most reliable motion sensor I used and repurchased over the years. I use them in stairways, hallways, entrances—mainly low to medium traffic areas where I absolutely need the light to turn on. Walking down the stairs in the dark shouldn’t happen in a smart home and Dome motion sensors haven’t failed me in this regard.
 
@@ -262,7 +262,7 @@ Connecting to SmartThings is hit-or-miss for me. I’m never able to pair the se
 
 ## GE Z-Wave Plus Motion Sensors
 
-![](\assets\images\product-photo\ge-motion-sensor.jpg){:.image--xl.align-left}
+![](\assets\images\product-photo\ge-motion-sensor.jpg){:.image--md.align-left}
 
 I continue to buy GE Z-Wave Plus Motion Sensors for its excellent range and USB power, but since it’s no longer being sold at retailers, I can’t recommend it. I sometimes find deals on eBay for under $30, which is a fair price as the sensor isn’t perfect (poor battery life and limited mounting options come to mind). These sensors are great in high traffic and large areas, but only if you can power the sensors with a USB cable.
 
@@ -292,7 +292,7 @@ The BeSense ceiling motion sensor is a new sensor on the market that caught my e
 
 ## Ecobee Sensors
 
-![](\assets\images\product-photo\ecobee-sensor.png){:.image--lg.align-left}
+![](\assets\images\product-photo\ecobee-sensor.png){:.image--md.align-left}
 
 Ecobee thermostats come with room sensors that monitor temperature, but did you know that it can also be used as a motion sensor? I would never buy purchase Ecobee sensors as dedicated motion sensors, but they are nice to have as secondary sensors to confirm if a room is truly empty.
 
@@ -353,7 +353,7 @@ A tilt sensor for the garage door wouldn’t be necessary if Chamberlain allowed
 
 ## Monoprice Z-Wave Plus Acceleration Sensor
 
-![](\assets\images\product-photo\monoprice-tilt.jpg){:.image--lg.align-left}
+![](\assets\images\product-photo\monoprice-tilt.jpg){:.image--md.align-left}
 
 **The Monoprice Z-Wave Plus Acceleration Sensor sucks, period. Don't buy it.** If a sensor is accurate only 80% of the time, then it's north worth it. I was getting the worst kind of false positives where the garage door is physically closed, but the sensor reported it as open. That is unacceptable when I’m away from home for days at a time and can’t confirm the door is closed, which is the sole purpose of a tilt sensor. The placement of the sensor on the garage door only needs to report status in two positions: horizontal or vertical. I don’t know how the sensor can report those states incorrectly so often, but it does. 
 
@@ -402,9 +402,9 @@ It took some time to find a capable presence sensor that was timely enough to up
 
 ## Nmap
 
-![](\assets\images\logo\nmap.png){:.image--lg.align-left}
+![](\assets\images\logo\nmap.jpg){:.image--md.align-left}
 
-Nmap is a network scanning tool that has many uses, though at a basic level it scans the network for connected devices. In Home Assistant, we repurpose the Nmap component as a device tracker: it scans the network for my phone and updates device status to ‘home’ if online, and ‘away’ if offline. I like Nmap as it is a simple, non-intrusive service that doesn’t require installing an app, and doesn’t track location any further than the house. That makes it easy to convince my roommates to use it as they don’t have to do anything on their phones, other than take their phones when they leave the house.
+Nmap is a network scanning tool that has many uses, though at a basic level it scans the network for connected devices. In Home Assistant, we repurpose the Nmap component as a device tracker: it scans the network for my phone and updates device status to ‘home’ if online, and ‘away’ if offline. **I like Nmap as it is a simple, non-intrusive service that doesn’t require installing an app, and doesn’t track location any further than the house.** That makes it easy to convince my roommates to use it as they don’t have to do anything on their phones, other than take their phones when they leave the house.
 
 I have one goal with these device trackers, which is to update location status before I reach the door. This lets me unlock the door or open the garage door right as I arrive. In my testing, results have been very positive. Status changes happen in less than a minute. Nmap is fast enough to detect when I’m in the garage, and ~ an automation unlocks the door in time.
 
@@ -416,7 +416,7 @@ Nmap’s accuracy is dependent on the signal strength of your network being able
 
 ### Installation and Smart Home Integration
 
-Nmap is compatible with Home Assistant only, but the configuration is incredibly easy to fill out.
+The **``Nmap``** component is available on Home Assistant only, but the configuration is incredibly easy to fill out. Once a configuration is added, a Home Assistant sensor will appear:
 
 ![Home Assistant:](https://d2mxuefqeaa7sj.cloudfront.net/s_6F2D06D13ED5B646A7B3ABF92554F4B018DC3C58310A9D7A5EC1772E423FF837_1550356635252_device_tracker-nmap-ha.png)
 
@@ -429,7 +429,7 @@ In my process of finding the right device tracker, I’ve tested a few other pla
 |             | Works in SmartThings | in Home Assistant | Time Accuracy      |                                                              |
 | ----------- | -------------------- | ----------------- | ------------------ | ------------------------------------------------------------ |
 | nmap        |                      | X                 | Less than a minute | Good: Fast status update, no interaction with household members needed. No additional app needed.<br>Bad: Only useful for detecting home/away status. Requires decent Wifi router |
-| iCloud      |                      | X                 |                    | Good:<br>Bad: Current Home Assistant implementation requires re-authentication every two months if using two-factor auth. Each person needs to provide iCloud password in Home Assistant, which most don’t want to do. |
+| iCloud      |                      | X                 |                    | Good:<br>Bad: Current Home Assistant implementation requires re-authentication every two months if using two-factor auth. Requires saving iCloud password in text file. |
 | iBeacons    |                      | X                 |                    |                                                              |
 | Life360     | X                    | X                 | 1 to 2 minutes     | Good: Life360 In Home Assistant, there is only one-minute delay. Can set multiple geofences for home, work, school.<br>Bad: Life360 in SmartThings, I’ve experience a one-hour delay. Provides too much location details. |
 | Tile        |                      | X                 | Terrible           | Good: None.<br>Bad: Completely inaccurate. Location update can take hours to days. Provides too much location details. |

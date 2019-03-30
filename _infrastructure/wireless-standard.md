@@ -25,19 +25,20 @@ article_header:
 
 **Competitors in this space:** Z-Wave Plus, Zigbee, Wi-Fi, Bluetooth LE, Homekit, Thread
 
-I’ve personally tested the following:
+##### I’ve personally tested the following:
 
-| Z-Wave Plus| Zigbee | Wi-Fi Based | Homekit |
+| ![Z-Wave](\assets\images\logo\zwave.png){:.image--sm} | ![Zigbee](\assets\images\logo\zigbee.png){:.image--sm} | ![Wi-Fi Based](\assets\images\logo\wifi.png){:.image--sm} | ![Homekit](\assets\images\logo\homekit.png){:.image--sm} |
 |:-------:|:--------:|:---------:|:---------:|
-| ![Z-Wave](\assets\images\logo\zwave.jpg){:.image--sm} | ![Zigbee](\assets\images\logo\zigbee.png){:.image--sm} | ![Wi-Fi Based](\assets\images\logo\wifi.png){:.image--sm} | ![Homekit](\assets\images\logo\homekit.png){:.image--sm} |
+| **Z-Wave Plus** | **Zigbee** | **Wi-Fi (Wemo, Kasa)** | **HomeKit** |
+
 
 ## What you need to know
-There is yet another set of wireless standards in the smart home space that you need to be familiar with. Popular standards like Wi-Fi, bluetooth, RF and infrared didn’t quite cut it for smart home use, so we’re left with two standards: Zigbee and Z-Wave. Each have their set of advantages and disadvantages with no clear winner.
+There is yet another set of wireless standards in the smart home space that you need to be familiar with. Popular standards like Wi-Fi, bluetooth, RF and infrared didn’t quite make the cut for smart home use, so we’re left with two newish standards: Zigbee and Z-Wave. Each have their set of advantages and disadvantages with no clear winner.
 
-Your hub supports most of the wireless standards (Zigbee, Z-Wave, Wi-Fi), but smart devices usually support only one standard—either Zigbee, Wi-Fi or Z-Wave. Adding to the confusion are companies like Philips, Ikea, Sengled and Xiaomi selling their own Zigbee hubs that are compatible with their respective bulbs only. Great job segmenting the market there, people.
+Your hub supports most of the wireless standards (Zigbee, Z-Wave, Wi-Fi), but connected devices usually support only one of those standards. Adding to the confusion are companies like Philips, Ikea, Sengled and Xiaomi selling their own Zigbee hubs that are compatible with their respective bulbs only. Great job segmenting the market there, people.
 
 [Innovelli](https://inovelli.com/z-wave-vs-zigbee-vs-bluetooth-vs-wifi-smart-home-technology/) and [Tom’s Guide](https://www.tomsguide.com/us/smart-home-wireless-network-primer,news-21085.html
-) offers a great primer on the different wireless technologies, though I have some straightforward advice for the consumer: don’t worry about using more than one wireless standard in your home. I think it’s inevitable to use more than one standard as to avoid limiting your options.
+) offers a great primer on the different wireless technologies, though I have some straightforward advice for the consumer: __*don’t worry about using more than one wireless standard in your home.*__ I think it’s inevitable to use more than one standard as to avoid limiting your options.
 
 In the three-story home I set up, I use Zigbee light bulbs and door sensors, Z-Wave Plus motion sensors and outlets, and Lutron Caseta light switches. It was a matter of convenience, cost, and availability that I ended up using three standards, but surprisingly I have no issues with range or connectivity.  But in another house with Zigbee bulbs and Z-Wave motion sensors, the Zigbee network dies way too often. So the lesson I learned is: zigbee network interference is real, and varies by house.
 
@@ -51,20 +52,20 @@ In my search for deals on smart devices, I’ve noticed the following trends:
 
 ### Considerations before choosing a wireless standard
 
-> - **The total number of connected devices.** Z-Wave device limit is 255. Zigbee is much higher at 65,355. Most homes will likely never hit Zigbee limits.
-> - **Placement of the hub, and powered repeaters.** Will you have enough repeaters to reach the furthest device? Z-Wave can hop at most 4 always-powered devices.
+> - **The total number of connected devices you plan to have.** Z-Wave device limit is 255. Zigbee is much higher at 65,355. Most homes will likely never hit Zigbee limits.
+> - **The placement of the hub, and powered repeaters.** Will you have enough repeaters to reach the furthest device? Z-Wave can hop on at most 4 always-powered devices.
 > - **Philips Hue and its incompatible Zigbee standard.** Philips Hue is Zigbee, but uses a different profile called ZLL.  Hue bulbs act as repeaters for Hue bridge only.
 > - **Wireless communications can be slow.** There is a noticeable delay between the sensor registering a change, sending data to hub, running automation, turning on a light. I’ve noticed a 1-2 second delay.
 
 ### What you get with a smart home wireless standard
 
-> - A dedicated wireless network for your smart devices that hopefully doesn’t interfere with existing wireless tech like Wi-Fi.
+> - A dedicated wireless network for your sensors and lights that hopefully doesn’t interfere with existing wireless tech like Wi-Fi.
 
 ### Recommended Reading
-> - Tom’s Guide to Wireless Home Standards
-> - A good Z-Wave/Zigbee/Bluetooth/Wifi Comparison Article by Innovelli
-> - “What is Z-Wave Plus?” Article by Innovelli
-> - Wirecutter - Building a Home with Homekit
+> - [Tom’s Guide to Wireless Home Standards](https://www.tomsguide.com/us/smart-home-wireless-network-primer,news-21085.html
+)
+> - A good Z-Wave/Zigbee/Bluetooth/Wifi Comparison Article by [Innovelli](https://inovelli.com/z-wave-vs-zigbee-vs-bluetooth-vs-wifi-smart-home-technology/) 
+> - [Wirecutter](https://thewirecutter.com/reviews/building-a-smart-home-with-apples-homekit/) - Building a Home with Homekit
 
 ## Z-Wave Plus
 ![Z-Wave](\assets\images\logo\zwave.jpg){:.image--md.align-left}
@@ -78,9 +79,9 @@ Z-Wave Plus should be winning the wireless smart home standard, but it’s not. 
 
 
 ### The Competition
+
 ![Thread](\assets\images\logo\thread02.png){:.image--sm}![Homekit](\assets\images\logo\homekit.png){:.image--md}
 ![Wemo](\assets\images\logo\wemo.png){:.image--md}
-
 
 There are new standards like Homekit, Thread, or WiFi-based ones like Wemo, but adoption rates remain low and I have concerns about the longevity of these standards. Homekit is slowly growing its footprint, but it is not usable outside Apple devices, or even the iOS ecosystem. Be especially wary of any Wi-Fi labeled products from D-Link, TP-Link Kasa or Belkin Wemo as those are not open standards and may not be supported if the company shuts down. 
 

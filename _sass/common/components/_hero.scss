@@ -39,6 +39,13 @@
   }
 }
 
+.hero--top {
+  text-align: left;
+  margin: map-get($spacers, 1) map-get($spacers, 1);
+}
+
+
+
 .hero--light {
   @extend .text--light;
 }

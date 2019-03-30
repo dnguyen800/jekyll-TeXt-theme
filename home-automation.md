@@ -40,7 +40,7 @@ __Not everything is perfect, but the solution I have is good enough to recommend
 
 
 
-##  HTML - Who is the audience here?
+##  Who is the audience here?
 <div class="item">
   <div class="item__image">
     <img class="image image--xl rounded" src="assets/images/other/diy-skill.jpg"  />
@@ -109,7 +109,7 @@ If you worry about it, you will never start building your smart home, so don’t
 <a name="menu"></a>
 <div class="grid-container">
   <div class="grid grid--p-2">
-    <div class="cell cell--12"><div><h2>Infrastructure</h2></div></div>
+   <div class="cell cell--12" style="background-color: #000000;">  <h3 style=" color: white;">Infrastructure</h3></div>
     <div class="cell cell--3"><a href="/infrastructure/network"><div><div class="card">
       <div class="card__image">
         <img class="image" src="assets/images/grid/network.jpg"  />
@@ -142,6 +142,30 @@ If you worry about it, you will never start building your smart home, so don’t
         <img class="image" src="assets/images/grid/home-theater.jpg"/>
       </div>
     </div></div></a></div>
+    
+    <div class="cell cell--3"><div><div class="card">
+      <a href="/media/home-theater#smart-tvs">
+        <div class="card__image">
+          <img class="image" src="assets/images/grid/smart-tv-sm.png"/>
+        </div>
+      </a>
+      <a href="/media/home-theater#av-receivers">
+        <div class="card__image">
+          <img class="image" src="assets/images/grid/av-receiver-sm.png"/>
+        </div> 
+      </a>
+      <a href="/media/home-theater#video-game-consoles">
+        <div class="card__image">
+          <img class="image" src="assets/images/grid/videogame-sm.png"/>
+        </div>  
+      </a>
+      <a href="/media/home-theater#media-streaming-devices">
+        <div class="card__image">
+          <img class="image" src="assets/images/grid/media-streaming-sm.png"/>
+        </div> 
+      </a>         
+    </div></div></div>    
+    
     <div class="cell cell--3"><a href="/media/streaming-media-services"><div><div class="card">
       <div class="card__image">
         <img class="image" src="assets/images/grid/streaming-media-services.jpg"/>
@@ -169,8 +193,9 @@ If you worry about it, you will never start building your smart home, so don’t
         <img class="image" src="assets/images/grid/thermostat.jpg"/>
       </div>
     </div></div></a></div>
-    
-    
+
+
+   
     
     <div class="cell cell--12"><div><h2>Security</h2></div></div>
         <div class="cell cell--3"><a href="/security/camera"><div><div class="card">
@@ -188,10 +213,35 @@ If you worry about it, you will never start building your smart home, so don’t
         <img class="image" src="assets/images/grid/sensor.jpg"/>
       </div>
     </div></div></a></div>
-    <div class="cell cell--3"><a href="/security/smart-lock"><div><div class="card">
-      <div class="card__image">
-        <img class="image" src="assets/images/grid/smart-lock.jpg"/>
-      </div>
+
+    <div class="cell cell--3"><div><div class="card">
+      <a href="/security/sensor#door-contact-sensors">
+        <div class="card__image">
+          <img class="image" src="assets/images/grid/contact-sensor-sm.png"/>
+        </div>
+      </a>
+      <a href="/security/sensor#motion-sensors">
+        <div class="card__image">
+          <img class="image" src="assets/images/grid/motion-sensor-sm.png"/>
+        </div> 
+      </a>
+      <a href="/security/sensor#tilt-sensors-for-garage-doors">
+        <div class="card__image">
+          <img class="image" src="assets/images/grid/tilt-sensor-sm.png"/>
+        </div>  
+      </a>
+      <a href="/security/sensor#presence-sensordevice-tracker">
+        <div class="card__image">
+          <img class="image" src="assets/images/grid/presence-sensor-sm.png"/>
+        </div> 
+      </a>         
+    </div></div></div>    
+    
+             
+      <div class="cell cell--3"><a href="/security/smart-lock"><div><div class="card">
+        <div class="card__image">
+          <img class="image" src="assets/images/grid/smart-lock.jpg"/>
+        </div>
     </div></div></a></div>
 
 

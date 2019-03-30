@@ -1,12 +1,15 @@
 ---
 layout: article
-title: Remotes
+title: Remote
 category: lighting
 ---
 ## Remotes
 
 ### Philips Hue Remote
 You can use the Philips Hue remote and mount on the wall, but for renters, that means you have two light switches on the wall. It looks a little tacky to me.
+
+{:.info}
+As a bonus, you can use the Philips Hue remote to factory reset Zigbee light bulbs, specifically reset Hue bulbs into regular Zigbee bulbs to use with SmartThings.
 
 ### Amazon Dash Buttons
 Using Home Assistant, it’s possible to repurpose the Amazon Dash buttons to do anything you want.  the Hassio add-on is designed to work with ARM-based boards only. Button response time is quite slow, around 3 to 10 seconds, making its uses limited. I use it to turn off all the lights downstairs, or in my room. I don’t mind the few seconds delay.
